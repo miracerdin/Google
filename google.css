@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    height:100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    margin: 0px;
+    padding: 10px 15px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 13px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+
+}
+.appicon img{
+    width: 25px;
+}
+.appicon:hover{
+    opacity: 0.6;
+}
+.header a:hover{
+    text-decoration: underline;
+    box-shadow: 15px gray;
+}
+.button{
+    color: white;
+    background-color: #1a73e8;
+    margin-left: 25px;
+    height: 35px;
+    width: 90px;
+    border-radius: 8px;
+    border: none;
+}
+.button:hover{
+    background-color: #4285f4;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.search{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+}
+.search:hover{
+    box-shadow: 0 0 10px lightgray;  
+}
+.search-icon{
+    width: 20px;
+    opacity: .5;
+    margin-left: 20px;
+    
+}
+.google-logo{
+    margin: 30px;
+}
+.icon-1 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+}
+.icon-2 img{
+    width: 27px;
+    margin-left: 20px;
+}
+.search-box{
+    width: 400px;
+    height: 25px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px ;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+}
+.btn:hover{
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+}
+p{
+    color: #3c4043;
+    font-size: 12px;
+}
+p a{
+    text-decoration: none;
+}
+.country{
+    padding: 20px;
+    color: #3c4043;
+    border-bottom:  1px solid #dadce0;
+}
+.bottom{
+    background-color: #f2f2f2;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.foot-left li{
+    float: left;
+    list-style: none;
+    margin-left: 12px;
+    
+}
+.bottom a{
+    text-decoration: none;
+    color: #70757a ;
+}
+.foot-right li{
+    float: left;
+    list-style: none;
+    margin-right: 17px;
+    
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+@media  (max-width:800px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
